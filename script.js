@@ -11,10 +11,10 @@ function listOfdates() {
     }
 
     // Get user input for month (numeric) and year
-    // const inputMonthNumber = parseInt(prompt('Enter the month number (1 for January, 2 for February, etc.):'), 10);
+    const inputMonthNumber = parseInt(prompt('Enter the month number (1 for January, 2 for February, etc.):'), 10);
     // const inputYear = prompt('Enter the year (e.g., 2023):');
-    const inputMonthNumber = parseInt(4, 10);
-    const inputYear = 2023
+    // const inputMonthNumber = parseInt(4, 10);
+    const inputYear = 2023  
 
 
     // Validate the month entered by the user and get the number of days
